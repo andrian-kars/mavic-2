@@ -58,6 +58,18 @@
         &:hover {
             @include hover;
         }
+
+        &.active {
+            @include hover;
+        }
+    }
+
+    &__list-phone {
+        display: none;
+    }
+
+    &__btn {
+        display: none;
     }
 }
 
@@ -77,7 +89,7 @@
 
     &__whrapper {
         display: flex;
-        align-items: flex-end;
+        align-items: center;
     }
 
     &__inner {
@@ -85,6 +97,7 @@
         flex-direction: column;
         text-align: center;
         align-items: center;
+        margin-top: 3%;
     }
 
     &__title {
