@@ -70,7 +70,7 @@ button {
     }
 
     &__whrapper {
-        min-height: 100vh;
+        min-height: 100%;
         padding: 110px 0 67px;
         z-index: 1;
         position: relative;
@@ -92,10 +92,4 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-}
-
-.fullpage-wrapper {
-    height: 100vh;
-    min-height: 100vh;
-    max-height: 100vh;
 }
